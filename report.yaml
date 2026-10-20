@@ -1,0 +1,278 @@
+schema_version: "1.0"
+issue: "01"
+title: "智能化竞品周报"
+period:
+  start: "2026-10-09"
+  end: "2026-10-15"
+  timezone: "Asia/Shanghai"
+exported_on: "2026-10-20"
+provenance:
+  source_file: "auto-intelligence-weekly-2026-10-15.html"
+  method: "Extracted from the existing HTML; no new reporting or source verification."
+  verification_status: "not_reverified_in_export"
+  limitations:
+    - "本次仅导出原页面内容，未重新核验新闻、来源链接或洞察。"
+    - "保留原刊日期范围；该范围不是周一至周日。"
+    - "原文没有的事件日期、版本号和证据摘录没有补填。"
+    - "情报 ID 为本次导出分配；原页面洞察未提供逐条证据 ID。"
+summary_as_published: "本周焦点：城市领航向存量车型下放，OTA继续攻克泊车与低速场景；新车信息集中在新车发布与概念车亮相。"
+coverage_note: "🚨覆盖说明这是基于本周已检索到的公开信息整理的监测表，不代表市场全量。表中将已推送、宣布推送、产品亮相和概念首秀分开标记；媒体转述和时间口径有冲突的条目已在备注中提示。"
+table_columns:
+  - "公司"
+  - "品牌"
+  - "具体汽车 SKU"
+  - "时间"
+  - "发布状态"
+  - "具体来源"
+  - "动态及看点"
+  - "备注"
+item_count: 11
+items:
+  -
+    id: "S01"
+    company: "长安汽车"
+    brand: "深蓝"
+    vehicle_sku: "2027款深蓝 L06"
+    time_as_displayed: "10月9日"
+    release_status_as_displayed: "正式上市"
+    sources:
+      -
+        label: "易车 / BitAuto 报道"
+        url: "https://www.bitauto.com/article/1003113768942/"
+    source_notes:
+      - "上市及配置报道"
+    update_as_published: "报道所列配置包括激光雷达、天枢领航辅助驾驶系统及双地平线 J6M 芯片（256 TOPS）。智驾配置进入中型纯电轿车的主卖点组合。"
+    insight_as_published: "看点：关注上市版型中激光雷达与领航功能的配置门槛。"
+    notes: "媒体报道口径；具体软硬件配置应以官方配置表及销售车型为准。"
+    tags:
+      - "新车"
+    verification_status: "not_reverified_in_export"
+  -
+    id: "S02"
+    company: "长安汽车 / 阿维塔科技"
+    brand: "阿维塔"
+    vehicle_sku: "阿维塔 T09 概念版"
+    time_as_displayed: "10月11日"
+    release_status_as_displayed: "概念版全球首秀"
+    sources:
+      -
+        label: "易车 / BitAuto 报道"
+        url: "https://www.bitauto.com/article/1003113824564/"
+    source_notes:
+      - "巴黎首秀信息"
+    update_as_published: "概念版在巴黎亮相，报道提到鸿蒙座舱/Vortex情感涡流交互、三联屏，以及四激光雷达等智能化配置。"
+    insight_as_published: "看点：豪华旗舰智能化继续强调多模态座舱与高规格感知硬件。"
+    notes: "概念版展示，不等于量产承诺；页面明确提示部分功能和配置不代表实车搭载。"
+    tags:
+      - "新车"
+    verification_status: "not_reverified_in_export"
+  -
+    id: "S03"
+    company: "小鹏汽车"
+    brand: "小鹏 MONA"
+    vehicle_sku: "MONA L05"
+    time_as_displayed: "10月15日"
+    release_status_as_displayed: "中国首秀 / 开启预售"
+    sources:
+      -
+        label: "汽车之家转载新出行"
+        url: "https://chejiahao.m.autohome.com.cn/pingan/chejiahao/detailinfo/26646722"
+    source_notes:
+      - "预售日期与动力信息"
+    update_as_published: "中型大五座 SUV，本周中国首秀并开启预售。公开报道确认纯电、增程双动力；本周资料尚未足以核实其量产版智驾配置细节。"
+    insight_as_published: "看点：后续需以发布会和正式配置表补齐智驾、座舱首发功能。"
+    notes: "智能化配置暂不作确定性陈述；需补查官方发布会材料。"
+    tags:
+      - "新车"
+      - "待核"
+    verification_status: "not_reverified_in_export"
+  -
+    id: "S04"
+    company: "奇瑞汽车"
+    brand: "奇瑞风云"
+    vehicle_sku: "风云 T11"
+    time_as_displayed: "10月12日（报道）"
+    release_status_as_displayed: "据报道已推送"
+    sources:
+      -
+        label: "汽车之家经销商页面"
+        url: "https://dealernew.autohome.com.cn/2224077/news_1575593635.html"
+    source_notes:
+      - "经销商发布，非车企主站"
+    update_as_published: "报道提到第二次 OTA 新增9项、优化4项，包含 ETC 自主通行、窄路三点掉头、智驾卡片等。"
+    insight_as_published: "看点：更新触及窄路、收费站等高频驾驶流程。"
+    notes: "来源等级较低；推送范围、版本号和功能边界待奇瑞官方公告确认。"
+    tags:
+      - "OTA"
+    verification_status: "not_reverified_in_export"
+  -
+    id: "S05"
+    company: "广汽集团"
+    brand: "广汽埃安"
+    vehicle_sku: "埃安 N60"
+    time_as_displayed: "10月9日（报道）"
+    release_status_as_displayed: "OTA动态 / 日期待核"
+    sources:
+      -
+        label: "汽车之家报道"
+        url: "https://www.autohome.com.cn/news/202610/1317653.html"
+      -
+        label: "另一篇报道"
+        url: "https://www.autoreport.cn/zonghexinwen/20261008/09113710182.html"
+    source_notes:
+      - "10月9日：将迎来 OTA"
+      - "称10月8日已启动推送"
+    update_as_published: "更新亮点包括智能防晕车、三档辅助驾驶与泊车模式、CarPlay等。"
+    insight_as_published: "看点：驾驶风格可调与防晕车属于体验层的差异化能力。"
+    notes: "日期口径冲突：有报道将其列为10月9日待推送，另一来源称10月8日已推送；本表不将其计为本周确认首推。"
+    tags:
+      - "OTA"
+      - "待核"
+    verification_status: "not_reverified_in_export"
+  -
+    id: "S06"
+    company: "零跑汽车"
+    brand: "零跑"
+    vehicle_sku: "C01 / C10 / C11 / C16（指定年款及配置）"
+    time_as_displayed: "10月13日"
+    release_status_as_displayed: "宣布10月陆续推送"
+    sources:
+      -
+        label: "汽车之家转述零跑官方消息"
+        url: "https://www.autohome.com.cn/news/202610/1317726.html"
+    source_notes:
+      - "OTA车型及功能说明"
+    update_as_published: "指定车型新增城市领航辅助、泊入辅助、后排儿童空间应用、洗车模式等。激光雷达车型通过 OTA 获得城市领航辅助，是本周重要的老车能力扩展案例。"
+    insight_as_published: "看点：关注旧款硬件是否需满足额外配置或软件条件。"
+    notes: "并非全系覆盖；具体适配车型和分批进度以官方车主通知为准。"
+    tags:
+      - "OTA"
+    verification_status: "not_reverified_in_export"
+  -
+    id: "S07"
+    company: "广汽集团"
+    brand: "昊铂"
+    vehicle_sku: "昊铂 A800（智慧旗舰版相关功能）"
+    time_as_displayed: "10月13日公告 / 14日报道"
+    release_status_as_displayed: "OTA升级公布"
+    sources:
+      -
+        label: "汽车之家原创报道"
+        url: "https://www.autohome.com.cn/article?id=56HivXVmdRI%3D"
+    source_notes:
+      - "转述昊铂官方微博/APP"
+    update_as_published: "8项体验更新，覆盖园区领航泊车、地库显示半径、倒车风险提示、导航途中搜索和途经点编辑；智慧旗舰版增加 AI-MOTION 应用及便捷转弯。"
+    insight_as_published: "看点：功能改进集中在停车、导航与低速操控流程。"
+    notes: "部分功能为指定版本专属；使用时仍需驾驶员持续关注路况并随时接管。"
+    tags:
+      - "OTA"
+    verification_status: "not_reverified_in_export"
+  -
+    id: "S08"
+    company: "蔚来汽车"
+    brand: "firefly 萤火虫"
+    vehicle_sku: "萤火虫（Aster 紫菀 2.1.0）"
+    time_as_displayed: "10月14日"
+    release_status_as_displayed: "正式推送"
+    sources:
+      -
+        label: "汽车之家转述品牌信息"
+        url: "https://www.autohome.com.cn/news/202610/1317767.html"
+    source_notes:
+      - "更新功能列表"
+    update_as_published: "更新覆盖智能座舱、Lumo 智能伙伴与整车体验：新增车内 K 歌、尾门开启空间提醒，并优化能量回收、续航风险提醒和换电辅助泊车。"
+    insight_as_published: "看点：娱乐功能之外，换电定位等待和续航提示等服务细节也在持续迭代。"
+    notes: "媒体称本次含19项更新；需结合版本说明核实各功能适配车型和推送批次。"
+    tags:
+      - "OTA"
+    verification_status: "not_reverified_in_export"
+  -
+    id: "S09"
+    company: "上汽集团"
+    brand: "荣威"
+    vehicle_sku: "荣威家越 07"
+    time_as_displayed: "10月13日（工博会展示）"
+    release_status_as_displayed: "展会展示"
+    sources:
+      -
+        label: "上汽集团官方新闻"
+        url: "https://www.saicmotor.com/m/xwzx/xwk/2026/65559.shtml"
+    source_notes:
+      - "工博会车型与技术介绍"
+    update_as_published: "官方称豆包座舱助手可调用2000多个 SOA 接口，将自然语言意图转成导航、驾驶、娱乐及车控等连续任务。"
+    insight_as_published: "看点：座舱 AI 的产品主张从对话问答进一步转向跨域任务执行。"
+    notes: "官方宣传口径；任务权限、成功率、响应延迟和量产可用范围待实车核验。"
+    tags:
+      - "新车"
+    verification_status: "not_reverified_in_export"
+  -
+    id: "S10"
+    company: "上汽集团"
+    brand: "MG"
+    vehicle_sku: "MG 07"
+    time_as_displayed: "10月13日（工博会展示）"
+    release_status_as_displayed: "展会展示"
+    sources:
+      -
+        label: "上汽集团官方新闻"
+        url: "https://www.saicmotor.com/m/xwzx/xwk/2026/65559.shtml"
+    source_notes:
+      - "官方技术和产品信息"
+    update_as_published: "官方公布 Momenta R7、激光雷达、城区/高速 NOA、全场景自动泊车；纯电版展示800V、5C快充和最高845km续航。"
+    insight_as_published: "看点：高阶智驾与高压快充配置向更主流价位段延伸。"
+    notes: "展会披露和官方指标，正式量产版本、售价、配置对应关系尚待确认。"
+    tags:
+      - "新车"
+    verification_status: "not_reverified_in_export"
+  -
+    id: "S11"
+    company: "上汽集团"
+    brand: "尚界"
+    vehicle_sku: "尚界 Z7T"
+    time_as_displayed: "10月13日（工博会展示）"
+    release_status_as_displayed: "展会展示"
+    sources:
+      -
+        label: "上汽集团官方新闻"
+        url: "https://www.saicmotor.com/m/xwzx/xwk/2026/65559.shtml"
+    source_notes:
+      - "官方产品信息"
+    update_as_published: "官方公布 ADS 5、896线激光雷达、鸿蒙座舱、途灵智能底盘和800V快充；公布 CLTC 最高续航905km。"
+    insight_as_published: "看点：座舱、智驾、底盘和补能被打包为整车智能化方案。"
+    notes: "展示阶段信息；需后续核实量产时间、版本配置及测试口径。"
+    tags:
+      - "新车"
+    verification_status: "not_reverified_in_export"
+observations_as_published:
+  -
+    category: "01 / 智驾下放"
+    title: "传感器存量开始转化为软件能力"
+    body: "零跑指定激光雷达车型通过 OTA 增加城市领航辅助，说明竞争不只看新车硬件堆叠，也看已交付车辆的软件解锁与适配覆盖。"
+  -
+    category: "02 / 低速场景"
+    title: "泊车和窄路成为更新高频区"
+    body: "昊铂的园区/地库泊车，风云 T11 报道中的窄路掉头，以及埃安 N60 的泊车模式，都把体验打磨落在低速、复杂、易感知的场景。"
+  -
+    category: "03 / 系统协同"
+    title: "座舱开始连接车辆执行链路"
+    body: "上汽对家越07的描述突出 AI 调用 SOA 服务接口；萤火虫 OTA 则把座舱娱乐、换电和续航信息放在同一更新中。落地效果仍需实车体验验证。"
+follow_up_period:
+  start: "2026-10-16"
+  end: "2026-10-22"
+followups_as_published:
+  -
+    category: "VERIFY / OTA兑现"
+    title: "核对本周 OTA 的实际覆盖"
+    tasks:
+      - "零跑：确认适配年款、激光雷达配置条件及城市领航辅助推送进度。"
+      - "昊铂 A800：核对 OTA 版本、智慧旗舰版专属功能和使用边界。"
+      - "firefly：确认紫菀2.1.0覆盖车型与换电辅助泊车改动。"
+      - "风云 T11：寻找车企官方版本说明，确认“已推送”时间与车型范围。"
+  -
+    category: "WATCH / 产品信息"
+    title: "补齐车型发布与智驾配置"
+    tasks:
+      - "MONA L05：补录预售发布会后公布的智驾硬件、软件能力、版本差异及价格。"
+      - "深蓝 L06：对照官方配置表复核辅助驾驶硬件与功能适用版本。"
+      - "阿维塔 T09：追踪概念版信息与后续量产规划的差异。"
+      - "持续监测比亚迪、问界/鸿蒙智行、理想、蔚来/萤火虫、小鹏、零跑、长安、广汽、上汽等品牌公开渠道；吉利及旗下品牌排除。"
